@@ -1,0 +1,7 @@
+pretty much this is a middleware to communicate with the db
+
+
+http://localhost:5000/api/v1/posts/p?page=2 --> returns all posts paginated on page 2
+can also add limit= value
+
+http://localhost:5000/api/v1/posts/s?search=Bill --> searches for title:regex Bill, paginates result
